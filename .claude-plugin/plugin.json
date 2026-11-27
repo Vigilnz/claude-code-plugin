@@ -1,0 +1,21 @@
+{
+  "name": "vigilnz-runtimeguard",
+  "version": "1.0.0",
+  "description": "Vigilnz RuntimeGuard security hooks for Claude Code — reports tool calls to your Vigilnz gateway and enforces its allow/deny decisions.",
+  "author": { "name": "Vigilnz" },
+  "userConfig": {
+    "gateway_url": {
+      "type": "string",
+      "title": "RuntimeGuard gateway URL",
+      "description": "Your Vigilnz RuntimeGuard gateway URL (ask your Vigilnz admin if unsure)",
+      "required": true
+    },
+    "plugin_key": {
+      "type": "string",
+      "title": "RuntimeGuard plugin key",
+      "description": "The one-time plugin key issued on the Vigilnz RuntimeGuard Setup page",
+      "sensitive": true,
+      "required": true
+    }
+  }
+}
