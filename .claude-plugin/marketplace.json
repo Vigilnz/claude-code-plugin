@@ -1,0 +1,12 @@
+{
+  "name": "vigilnz",
+  "description": "Vigilnz RuntimeGuard plugins for Claude Code",
+  "owner": { "name": "Vigilnz" },
+  "plugins": [
+    {
+      "name": "vigilnz-runtimeguard",
+      "source": "./",
+      "description": "Vigilnz RuntimeGuard PreToolUse/PostToolUse security hooks"
+    }
+  ]
+}
